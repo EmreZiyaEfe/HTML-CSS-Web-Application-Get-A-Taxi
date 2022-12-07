@@ -26,6 +26,7 @@ nav ul li {
     list-style-type: none;
     padding: 20px;
     cursor: pointer;
+    transition: 0.6s;
 }
 
 nav ul li a {
@@ -39,7 +40,7 @@ nav ul li:hover {
 
 .container {
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.805),  rgba(0, 0, 0, 0.556));
+    background-image: linear-gradient(rgba(255, 166, 0, 0.805),  rgba(0, 0, 0, 0.556));
 }
 
 .inner {
@@ -47,6 +48,24 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     
+}
+
+.up {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    
+}
+
+.up a {
+    color: white;
+    text-decoration: none;
+}
+
+.up a i {
+    font-size:48px;
+    color: orange;
 }
 
 .inner .image {
@@ -60,8 +79,7 @@ nav ul li:hover {
 
 .right-side {
     width: 30%;
-    background-color: bisque;
-    border: 7px groove #18181b;
+    border: 10px groove white;
     padding: 20px;
     margin: 50px;
     box-shadow: 2px 2px 5px;
@@ -104,7 +122,7 @@ nav ul li:hover {
     height: 500px;
     padding: 20px 20px;
     margin: 50px;
-    border: 7px groove black;
+    border: 10px groove white;
     border-radius: 15px;
 }
 
@@ -120,13 +138,14 @@ nav ul li:hover {
 .inner-mid-left p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    color: orange;
 }
 
 .inner-mid-right {
     width: 50%;
     height: 550px;
     background-color: black;
-    border: 7px groove orange;
+    border: 10px groove white;
     margin: 50px;
     border-radius: 15px;
 }
@@ -136,6 +155,7 @@ nav ul li:hover {
     padding: 12px 20px;
     margin: 30px 0px 0px 30px;
     font-size: 1.125rem;
+    background-color: white;
 }
 
 textarea {
@@ -143,6 +163,7 @@ textarea {
     padding: 12px 20px;
     margin: 30px 0px 0px 30px;
     font-size: 1.125rem;
+    background-color: white;
 }
 
 footer {
